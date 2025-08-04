@@ -11,7 +11,7 @@ while True:
     time.sleep(3)
 
     confirm = input(f"To confirm, you want your username to be '{username}' correct? (yes/no): ")
-    
+
     if confirm.lower() == "yes":
         password = input("What would you like your password to be? ")
         passconf = input("Enter password again: ")
@@ -26,3 +26,4 @@ while True:
             break
     else:
         print("Okay, let's try again.\n")
+
